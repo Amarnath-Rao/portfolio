@@ -32,13 +32,13 @@ function Profile(params) {
                         <a href="#project">project</a>
                     </li>
                     <li>
-                        <a href="https://drive.google.com/file/d/1i9PLB-D9o4NqsJPg_QW20_rlpUZfqIOA/view?usp=sharing" target='_blank'>resume</a>
+                        <a href="https://drive.google.com/file/d/1t-S7-hW-gN_OKjMPHb65ryLBmaQXmDMV/view?usp=sharing" target='_blank'>resume</a>
                     </li>
                 </ul>
             </nav>
             <div className="social">
                 <li className="social-button">
-                    <a href="https://www.linkedin.com/in/n-amarnath-rao-631669240/" target="blank">
+                    <a href="https://www.linkedin.com/in/n-amarnath-rao/" target="blank">
                         <FaLinkedinIn />
                     </a>
                 </li>

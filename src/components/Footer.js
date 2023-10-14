@@ -14,7 +14,7 @@ function Footer() {
             <div className='social'>
             <ul className='social-buttons'>
                 <li className='social-button'>
-                <a href='https://www.linkedin.com/in/n-amarnath-rao-631669240/' target='_blank' rel='noopener noreferrer'>
+                <a href='https://www.linkedin.com/in/n-amarnath-rao/' target='_blank' rel='noopener noreferrer'>
                     <FaLinkedinIn />
                 </a>
                 </li>

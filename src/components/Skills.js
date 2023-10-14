@@ -20,7 +20,7 @@ const data = [
     {
         title: 'Programming Language',
         grid: 'pl',
-        skill: ['Python', 'Java', 'C++',  'JavaScript',]
+        skill: ['Python', 'Java', 'C++',  'JavaScript','Solidity']
     },
     {
         title: 'Database',
