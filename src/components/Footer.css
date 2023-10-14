@@ -1,0 +1,40 @@
+.footer {
+    background-color: var(--secondary-color);
+    padding-top: 3%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social-buttons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-button {
+    margin: 0 10px;
+}
+
+.social-button a {
+    color: var(--text-color);
+    font-size: larger;
+    transition: color 0.3s ease;
+}
+
+.social-button a:hover {
+    color: var(--highlight-color);
+}

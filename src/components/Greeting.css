@@ -1,0 +1,15 @@
+.GreetingBlock {
+    color: var();
+    text-align: left;
+    margin-left: 20%;
+    padding-bottom: 1%;
+    font-weight: 500;
+}
+
+#hi {
+    color: var(--highlight-color);
+}
+
+.GreetingBlock p {
+    width: 90%;
+}

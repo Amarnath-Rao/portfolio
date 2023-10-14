@@ -1,0 +1,123 @@
+.profile {
+    background-color:var(--background-color);
+    color: var(--text-color);
+    padding-top: 10vh;
+    padding-bottom: 5vh;   
+}
+
+.profile .avatar img {
+    border-radius: 50%;
+    border: 3px solid var(--secondary-color);
+    height: 20vh;
+    width: 20vh;
+    transition: .5s;
+    box-shadow: 
+		0 1rem 3rem var(--background-color),
+		-4px 4px 15px 5px rgba(0,0,0,.1);
+}
+
+.profile .avatar img:hover {
+    filter: brightness(110%);
+}
+
+.profile .name {
+    font-size: 3.9rem;
+    font-weight: bolder;
+    font-family: cursive;
+    margin-top: 0%;
+}
+
+.profile .title {
+    font-weight: bold;
+    font-size: large;
+    color: var(--highlight-color)
+}
+
+.profile .first-name {
+    color: var(--text-color);
+}
+
+.profile .last-name {
+    color: var(--highlight-color)
+}
+
+.profile nav {
+    display: flex;
+    justify-content: center;
+}
+
+.profile nav ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 1.1rem;
+    text-align: center;
+}
+
+.profile nav li {
+    margin-left: 8%;
+    margin-right: 5%;
+}
+
+.profile nav a {
+    color: var(--text-color);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.profile .social {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile .social li {
+    list-style: none;
+    margin-left: 2%;
+}
+
+.profile .social a {
+    color: var(--text-color);
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 1.1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.profile a:hover {
+    color: var(--highlight-color);
+}
+
+@media (max-width: 700px) {
+    .profile .name {
+        font-size: 2.5rem;
+        font-weight: bolder;
+        font-family: cursive;
+        margin-top: 0%;
+    }
+
+    .profile nav ul {
+        padding-left: 0;
+        flex-wrap: wrap;
+    }
+
+    .profile nav a {
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+
+    .profile .social a {
+        font-size: 1.3rem;
+    }
+
+    .profile nav li:first-child {
+        margin-left: 0;
+    }
+
+    .profile nav li:last-child {
+        margin-right: 0;
+    }
+}

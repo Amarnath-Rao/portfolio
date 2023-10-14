@@ -1,0 +1,139 @@
+.timeline {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.timeline ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline ul li {
+    width: 65%;
+    margin-bottom: 1%;
+}
+
+.timeline ul li .timeline-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--secondary-color);
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    transition: .5s;
+    box-shadow: 
+		0 1rem 3rem var(--background-color),
+		-4px 4px 15px 5px rgba(0,0,0,.1);
+}
+
+.timeline ul li .timeline-card:hover {
+    filter: brightness(130%);
+}
+
+.timeline ul li .timeline-card .timeline-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.timeline ul li .timeline-card .timeline-icon img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 30%;
+}
+
+.timeline ul li .timeline-card .timeline-icon p {
+    color: var(--text-color);
+    font-size: small;
+    font-weight: bold;
+}  
+
+.timeline ul li .timeline-card .timeline-text {
+    width: 80%;
+    height: 100%;
+    text-align: left;
+}
+
+.timeline ul li .timeline-card .timeline-text .company {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--highlight-color);
+}
+
+.timeline ul li .timeline-card .timeline-text a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--highlight-color);
+    text-decoration: none;
+}
+
+.timeline ul li .timeline-card .timeline-text p {
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.timeline ul li .timeline-card .timeline-text .position {
+    font-weight: bold;
+}
+
+.timeline ul li .timeline-card .timeline-text .description {
+    text-align: left;
+}
+
+.timeline ul li .timeline-card .timeline-text .technology_stack {
+    text-align: left;
+    color: var(--highlight-color);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.timeline ul li .timeline-card .timeline-text .technology_stack .techstack_tag{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1%;
+    border: 10px solid var(--highlight);
+    background-color: var(--background-color);
+    color: var(--highlight-color);
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+@media (max-width: 1000px) {
+    .timeline ul li .timeline-card .timeline-icon img {
+        width: 30%;
+        height: 30%;
+    }
+
+    .timeline ul li .timeline-card .timeline-text .technology_stack .techstack_tag{
+        margin-right: 3%;
+        font-size: small;
+        width: auto;
+    }
+
+    .timeline ul li .timeline-card .timeline-text .technology_stack {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1700px) {
+    .timeline ul li .timeline-card .timeline-icon img {
+        margin-top: 5%;
+    }
+}
