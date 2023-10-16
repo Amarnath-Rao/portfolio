@@ -10,6 +10,7 @@ function Profile(params) {
             <div className="avatar"> 
                 <img alt="myphoto" src={myImage}></img>
             </div>
+        
             <h1 className="name">
                 <span className="first-name">Amarnath</span>
                 <span className="last-name"> Rao</span>
