@@ -2,16 +2,7 @@ import React from 'react';
 import './Work.css';
 
 const data = [
-  {
-    logo: "https://media.licdn.com/dms/image/C560BAQFgHU3sTF4LfQ/company-logo_200_200/0/1519895156650?e=2147483647&v=beta&t=e6J4j8gWdNCJ-Dhu6xEC2S3EB_6lcim27ymu6-zRQkg",
-    company: "The Sparks Foundation",
-    position: "Data Science & Business Analytics intern",
-    startDate: "Sept 2023",
-    endDate: "Oct 2023",
-    description: ["- Proficiently constructing, evolving, and documenting AI/ML models centered around data to support student learning, with a strong emphasis on transparency and comprehensible explanations.", " - Exploring the practical applications of AI/ML technology across diverse industries, encompassing healthcare, finance, manufacturing, agriculture, logistics, and transportation."," - Collaborating with reputed university faculty and subject matter experts to continuously enhance and modify the curriculum covering AI, ML, Data Science,IoT, and Python programming for the non-technical global youth audience."],
-    technologies: ["Python", "APIs", "Tensorflow"],
-    url: "https://www.thesparksfoundationsingapore.org/"
-  },
+  
   {
     logo: "https://logodix.com/logo/24117.jpg",
     company: "Microsoft",
@@ -31,16 +22,6 @@ const data = [
     description: ["- Spearheaded collaborative initiatives with students from diverse cultural backgrounds worldwide, fostering a global community of learners passionate about AI and cloud computing.","- Demonstrated exceptional soft skills, leadership, and communication abilities while coordinating and moderating virtual events, workshops, and knowledge-sharing sessions.","- Effectively conveyed complex AI and Azure concepts to a broad audience, simplifying technical topics for enhanced comprehension."],
     technologies: ["Azure", "AI"],
     url: "https://mvp.microsoft.com/studentambassadors"
-  },
-  {
-    logo: "https://media.licdn.com/dms/image/C560BAQHbRc4KalclmA/company-logo_200_200/0/1676715856930?e=2147483647&v=beta&t=dfIZWOm5EYgzqbVy_ccNBSpX8hiN9ywsq-V0oCd9H0M",
-    company: "TechnoHacks EduTech",
-    position: "Data Science Intern",
-    startDate: "Aug 2023",
-    endDate: "Sept 2023",
-    description: ["- Demonstrated proficiency in utilizing various data science frameworks and libraries, including but not limited to Pandas, NumPy, and Scikit-learn, to build predictive models and perform exploratory data analysis (EDA).","- Demonstrated proficiency in utilizing various data science frameworks and libraries, including but not limited to Pandas, NumPy, and Scikit-learn, to build predictive models and perform exploratory data analysis (EDA).","- Demonstrated proficiency in utilizing various data science frameworks and libraries, including but not limited to Pandas, NumPy, and Scikit-learn, to build predictive models and perform exploratory data analysis (EDA)."],
-    technologies: ["Python", "Data Science", "Computer Vision"],
-    url:""
   }
 ];
 
