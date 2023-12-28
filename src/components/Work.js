@@ -1,8 +1,6 @@
 import React from 'react';
 import './Work.css';
-
 const data = [
-  
   {
     logo: "https://logodix.com/logo/24117.jpg",
     company: "Microsoft",
