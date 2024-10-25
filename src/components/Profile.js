@@ -33,7 +33,7 @@ function Profile(params) {
                         <a href="#project">project</a>
                     </li>
                     <li>
-                        <a href="https://drive.google.com/file/d/1t-S7-hW-gN_OKjMPHb65ryLBmaQXmDMV/view?usp=sharing" target='_blank'>resume</a>
+                        <a href="https://drive.google.com/file/d/1h3sT_3xweFpzKwsbeaL7oYsLqm6hgVNJ/view?usp=sharing" target='_blank'>resume</a>
                     </li>
                 </ul>
             </nav>

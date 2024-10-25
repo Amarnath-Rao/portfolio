@@ -15,66 +15,76 @@ const data = [
     ]
   },
   {
-    title: 'Voucherize',
-    stars: 2,
-    link: 'https://github.com/Amarnath-Rao/Voucherize',
+    title: 'VibeHub',
+    link: 'https://github.com/Amarnath-Rao/VibeHub-SocialMediaApp',
     icon: FaGithub,
-    description: 'Our blockchain DApp for the vouchers marketplace in our Digital Transformation initiative allows users to buy and sell vouchers seamlessly. Users can browse, purchase, and list vouchers of various types, all with their unique values and benefits. Trust and efficiency are guaranteed as users upload voucher listings via IPFS, ensuring fast, transparent, and secure transactions while optimizing resource utilization. In essence, our DApp provides a secure and efficient marketplace for buying and selling vouchers in a decentralized environment.',
-    skills: [
-      'Solidity',
-      'ReactJS',
-      'Hardhat',
-      'Polygon',
-      'Ethereum',
-      'IPFS'
-    ]
-  },
-  {
-    title: 'Face Detection',
-    icon: FaGithub,
-    link: 'https://github.com/Amarnath-Rao/FaceDetection-Age-Gender_PythonML',
-    description: 'Face detection system that accurately identifies an individuals gender and estimates their age in real-time. This technology offers versatile applications in marketing, security, entertainment, and healthcare, making it a valuable tool for various industries.',
-    skills: [
-      'Python',
-      'OpenCV',
-      'Numpy',
-    ]
-  },
-  {
-    title: 'Social Media App',
-    icon: FaGithub,
-    link: 'https://github.com/Amarnath-Rao/Social-Media-App-Prototype',
-    description: 'Dynamic social media platform built with the MERN (MongoDB, Express, React, Node.js) stack. This web application offers users a feature-rich experience for connecting, sharing, and engaging with friends and communities online. Key features include user profiles, posts and feeds, friend requests, likes and comments, notifications, search and discovery, chat and messaging, and robust privacy controls.',
+    description: 'Comprehensive full-stack social media platform developed using MongoDB, Flask, and React for real-time user interactions and content sharing. Key features include user authentication with JWT and OAuth, post creation, comments, and a like system, enhancing user engagement by 85%. Utilizes RESTful APIs for efficient data management.',
     skills: [
       'MongoDB',
+      'Flask',
       'React',
-      'Express',
-      'Node.js',
+      'JWT',
+      'OAuth',
+      'RESTful APIs'
     ]
   },
   {
-    title: 'Fake News Detector',
+    title: 'University Admission Prediction',
+    link: 'https://github.com/Amarnath-Rao/S5-19CSE305-ML-PROJECT',
     icon: FaGithub,
-    link: 'https://github.com/Amarnath-Rao/Fake-News-Detection',
-    description: 'This project addresses the pressing issue of fake news by developing an automated detection system using Python, Pandas, and NumPy. We collect a diverse dataset of news articles, employ feature extraction techniques with Pandas and NumPy, and utilize machine learning models for accurate identification. Through rigorous validation and testing, our system offers real-time fake news classification, contributing to a more informed online landscape.',
+    description: 'A machine learning model comparison project that evaluates predictive accuracy for university admissions. The project preprocesses over 10,000 student records, optimizing features for model training. Achieved 99% accuracy using Gradient Boosting, SVM, and Naive Bayes. Evaluated models using metrics like ROC-AUC and precision-recall.',
     skills: [
-      'Python',
-      'Pandas',
-      'Numpy'
+      'Machine Learning',
+      'Gradient Boosting',
+      'SVM',
+      'Naive Bayes',
+      'Scikit-learn',
+      'XGBoost'
     ]
   },
   {
-    title: 'AutoMobile Company',
+    title: 'Market Insights',
+    link: 'https://github.com/Amarnath-Rao/Market-Insights',
     icon: FaGithub,
-    link: 'https://github.com/Amarnath-Rao/AutoMobile-Company-Project',
-    description: 'The Automobile Company Project combines Java Swing for the front-end and PostgreSQL as the back-end database. This software solution simplifies operations, including inventory management, sales tracking, and customer relationship management within an automobile company. Java Swing provides an intuitive user interface, while PostgreSQL ensures secure data storage. The project enhances efficiency, streamlining workflow processes and boosting productivity within the company.',
+    description: 'Real-time data analytics platform deployed on Azure using Kubernetes and integrated with Apache Kafka for real-time data ingestion. Designed for high scalability and automated response times under 500ms, with monitoring through Azure Monitor and Grafana for actionable insights.',
     skills: [
-      'Java',
-      'SQL',
-      'Swing'
+      'Azure',
+      'Kubernetes',
+      'Apache Kafka',
+      'Grafana',
+      'Azure Monitor'
+    ]
+  },
+  {
+    title: 'NFT Marketplace',
+    link: 'https://github.com/Amarnath-Rao/NFT-Marketplace',
+    icon: FaGithub,
+    description: 'Decentralized application for NFT transactions, leveraging Ethereum smart contracts with Solidity for secure blockchain interactions. Integrated Web3.js and MetaMask for user interactions and low-fee transactions, featuring a React-based frontend for a responsive and real-time experience.',
+    skills: [
+      'Ethereum',
+      'Solidity',
+      'Web3.js',
+      'MetaMask',
+      'Hardhat',
+      'Truffle'
+    ]
+  },
+  {
+    title: 'EduAid - AI Academic Prep',
+    link: 'https://www.linkedin.com/posts/n-amarnath-rao_pegasus2-hackathonsuccess-techinnovation-activity-7171836116923236355-Z5j1?utm_source=share&utm_medium=member_desktop', // Update with specific LinkedIn link if available
+    icon: FaGithub,
+    description: 'EduAid is an AI-driven platform hosted on GCP, leveraging Generative AI and speech recognition to revolutionize last-minute academic preparations. The platform enhances understanding of complex concepts, providing efficient solutions for students while ensuring scalability and quick access.',
+    skills: [
+      'Generative AI',
+      'GCP',
+      'Speech Recognition',
+      'Scalability',
+      'MERN'
     ]
   }
+  
 ];
+
 
 function Project() {
   return (
